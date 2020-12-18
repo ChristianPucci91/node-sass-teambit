@@ -210,7 +210,8 @@ nav ul li {
 }
 
 .section_4 .section_4_text {
-  background: white;
+  position: relative;
+  background: #fff;
   border: 1px solid #7F14D4;
   border-radius: 5px;
   width: 40%;
@@ -265,6 +266,7 @@ nav ul li {
 
 .section_4 .section_4_buttons .sign_up .section_4_logo {
   max-width: 15px;
+  margin-right: 15px;
 }
 
 .section_4 .section_1_buttons * {
@@ -273,6 +275,14 @@ nav ul li {
 
 .section_4 .mail_link p {
   font-size: 15px;
+}
+
+.section_4 .quotes {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  font-size: 40px;
+  color: #040F0F;
 }
 
 footer {

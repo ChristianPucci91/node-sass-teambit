@@ -9,7 +9,8 @@
     line-height: 80px;
   }
   .section_4_text {
-    background: white;
+    position: relative;
+    background:#fff;
     border:1px solid $border_color;
     border-radius: 5px;
     width:40%;
@@ -52,6 +53,7 @@
       color:$text_color;
       .section_4_logo {
         max-width: 15px;
+        margin-right: 15px;
       }
     }
   }
@@ -60,5 +62,12 @@
   }
   .mail_link p{
     font-size: 15px;
+  }
+  .quotes {
+    position: absolute;
+    left:0;
+    top: -20px;
+    font-size: 40px;
+    color:$text_color;
   }
 }
