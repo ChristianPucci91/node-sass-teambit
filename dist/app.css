@@ -98,7 +98,7 @@ nav ul li {
   align-items: center;
   justify-content: space-around;
   max-width: 36%;
-  background: #7F14D4;
+  background: linear-gradient(#4466D4, #0E14EE, #7F14D4);
   border-radius: 5px;
   padding: 10px 20px;
   color: #040F0F;

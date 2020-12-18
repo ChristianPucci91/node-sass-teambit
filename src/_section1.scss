@@ -24,7 +24,7 @@
         @include display-flex;
         justify-content: space-around;
         max-width: 36%;
-        background: $button_color;
+        background: linear-gradient($background, $text_color_blue,$button_color); 
         border-radius: 5px;
         padding: 10px 20px;
         color:$text_color;
