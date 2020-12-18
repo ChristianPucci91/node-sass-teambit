@@ -117,7 +117,7 @@ nav ul li {
 }
 
 .section_2 {
-  background: #4466D4;
+  background: linear-gradient(#4466D4, #0E14EE, #7F14D4);
   text-align: center;
   padding: 10px 0;
   color: #040F0F;
@@ -197,7 +197,7 @@ nav ul li {
 }
 
 .section_4 {
-  background: #4466D4;
+  background: linear-gradient(#4466D4, #0E14EE, #7F14D4);
   text-align: center;
   padding: 50px 0;
 }
