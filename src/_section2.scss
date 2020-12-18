@@ -14,9 +14,8 @@
     margin:0 auto 70px auto;
   }
     .section_2_img {
-      display: flex;
+      @include display-flex;
       justify-content: center;
-      align-items: center;
       width: 70%;
       margin:0 auto;
     }

@@ -1,14 +1,12 @@
 nav {
-  display: flex;
+  @include width;
+  @include display-flex;
   justify-content: space-between;
-  align-items: center;
   height: 80px;
   border-bottom: 1px solid $border_color;
   color:$text_color;
-  @include width;
   .logo {
-    display: flex;
-    align-items: center;
+    @include display-flex;
     span {
       margin-left: 20px;
       font-size: 20px;
@@ -18,12 +16,11 @@ nav {
     width: 100%;
   }
   .sign_in_button {
+    @include display-flex;
     max-width: 100px;
-    display: flex;
     border: 1px solid $border_color;
     border-radius: 10px;
     padding: 5px 0 5px 10px;
-    align-items: center;
     .google {
       margin: 5px 10px 5px 0;
       width: 15%;
@@ -33,9 +30,8 @@ nav {
     }
   }
   ul  {
-    display: flex;
+    @include display-flex;
     justify-content: space-around;
-    align-items: center;
     li {
       list-style: none;
       display: flex;

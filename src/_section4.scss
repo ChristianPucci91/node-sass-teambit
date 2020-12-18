@@ -22,10 +22,9 @@
       margin-bottom:20px;
     }
     .section_4_text_bottom {
-      display: flex;
+      @include display-flex;
       width: 100%;
       justify-content: flex-start;
-      align-items:center;
       .ceo {
         width: 40px;
         margin-right: 10px;

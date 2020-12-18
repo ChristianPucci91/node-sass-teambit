@@ -1,8 +1,7 @@
 .section_1{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include display-flex;
   @include width;
+  justify-content: space-between;
   div{
     width: 50%;
   }
@@ -18,14 +17,12 @@
       color:$text_color;
     }
     .section_1_buttons {
-      display: flex;
+      @include display-flex;
       justify-content: flex-start;
-      align-items: center;
       width: 100%;
       .sign_up{
-        display: flex;
+        @include display-flex;
         justify-content: space-around;
-        align-items: center;
         max-width: 36%;
         background: $button_color;
         border-radius: 5px;

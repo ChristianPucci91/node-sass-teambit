@@ -2,13 +2,13 @@
   padding: 100px 0;
   color:$text_color;
   .left{
-    display: flex;
+    @include display-flex;
     justify-content: flex-start;
     width: 80%;
     padding: 50px 0;
   }
   .right {
-    display: flex;
+    @include display-flex;
     justify-content: flex-end;
     width: 80%;
     padding: 50px 0;

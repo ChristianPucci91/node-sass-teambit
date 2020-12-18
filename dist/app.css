@@ -10,14 +10,14 @@ img {
 }
 
 nav {
+  width: 80%;
+  margin: 100px auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   height: 80px;
   border-bottom: 1px solid #7F14D4;
   color: #040F0F;
-  width: 80%;
-  margin: 100px auto;
 }
 
 nav .logo {
@@ -35,12 +35,12 @@ nav div {
 }
 
 nav .sign_in_button {
-  max-width: 100px;
   display: flex;
+  align-items: center;
+  max-width: 100px;
   border: 1px solid #7F14D4;
   border-radius: 10px;
   padding: 5px 0 5px 10px;
-  align-items: center;
 }
 
 nav .sign_in_button .google {
@@ -54,8 +54,8 @@ nav .sign_in_button span {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 
 nav ul li {
@@ -65,10 +65,10 @@ nav ul li {
 
 .section_1 {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 80%;
   margin: 100px auto;
+  justify-content: space-between;
 }
 
 .section_1 div {
@@ -88,15 +88,15 @@ nav ul li {
 
 .section_1 .section_1_text .section_1_buttons {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   width: 100%;
 }
 
 .section_1 .section_1_text .section_1_buttons .sign_up {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   max-width: 36%;
   background: #7F14D4;
   border-radius: 5px;
@@ -139,8 +139,8 @@ nav ul li {
 
 .section_2 .section_2_img {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 70%;
   margin: 0 auto;
 }
@@ -167,6 +167,7 @@ nav ul li {
 
 .section_3 .left {
   display: flex;
+  align-items: center;
   justify-content: flex-start;
   width: 80%;
   padding: 50px 0;
@@ -174,6 +175,7 @@ nav ul li {
 
 .section_3 .right {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   width: 80%;
   padding: 50px 0;
@@ -225,9 +227,9 @@ nav ul li {
 
 .section_4 .section_4_text .section_4_text_bottom {
   display: flex;
+  align-items: center;
   width: 100%;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .section_4 .section_4_text .section_4_text_bottom .ceo {
