@@ -1,5 +1,5 @@
 .section_2 {
-  background:$background;
+  background: linear-gradient($background, $text_color_blue,$button_color);
   text-align: center;
   padding: 10px 0 ;
   color:$text_color;
