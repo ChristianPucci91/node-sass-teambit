@@ -1,0 +1,17 @@
+.section_4 {
+  background: salmon;
+  text-align: center;
+  .section_4_text {
+    background: white;
+    border:1px solid black;
+    border-radius: 10px;
+    width:40%;
+    margin:0 auto;
+    text-align: left;
+    padding: 10px;
+    line-height: 30px;
+    p{
+      font-size: 20px;
+    }
+  }
+}

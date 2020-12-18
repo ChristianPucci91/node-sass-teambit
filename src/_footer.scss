@@ -1,0 +1,7 @@
+footer {
+  display: flex;
+  @include width;
+  div {
+    display: flex;
+  }
+}
