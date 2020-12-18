@@ -1,8 +1,6 @@
-@each $i in nav,section {
-    body #{$i} {
-        width: 80%;
-        margin: 0 auto;
-    }
+@mixin width {
+  width: 80%;
+  margin:0 auto;
 }
 
 img {

@@ -1,0 +1,19 @@
+.section_2 {
+  background: yellow;
+  text-align: center;
+    .section_2_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin:0 auto;
+    }
+    .section_2_img div {
+      width: 30%;
+      margin: 0 auto;
+    }
+    .section_2_bottom {
+      width: 20%;
+      margin:0 auto;
+    }
+}
