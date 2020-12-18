@@ -162,7 +162,7 @@ nav ul li {
 
 .section_3 {
   padding: 100px 0;
-  color: #040F0F;
+  color: #0E14EE;
 }
 
 .section_3 .left {
@@ -249,7 +249,26 @@ footer {
   margin: 100px auto;
 }
 
-footer div {
+footer .footer_logo span {
+  color: #0E14EE;
+}
+
+footer .footer_link {
   display: flex;
+}
+
+footer .footer_link ul {
+  margin: 0 20px;
+}
+
+footer .footer_link ul li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+footer .footer_link ul a {
+  text-decoration: none;
+  color: #040F0F;
 }
 
