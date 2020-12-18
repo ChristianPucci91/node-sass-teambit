@@ -1,6 +1,10 @@
 .section_2 {
-  background: yellow;
+  background: salmon;
   text-align: center;
+  .container{
+    @include width;
+    border-bottom: 1px solid grey;
+  }
     .section_2_img {
       display: flex;
       justify-content: center;

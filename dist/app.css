@@ -71,8 +71,14 @@ nav ul .sign_in_button {
 }
 
 .section_2 {
-  background: yellow;
+  background: salmon;
   text-align: center;
+}
+
+.section_2 .container {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
 }
 
 .section_2 .section_2_img {
@@ -91,5 +97,15 @@ nav ul .sign_in_button {
 .section_2 .section_2_bottom {
   width: 20%;
   margin: 0 auto;
+}
+
+.section_3 div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section_3 div .section_3_text {
+  display: flex;
+  flex-direction: column;
 }
 
