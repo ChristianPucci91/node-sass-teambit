@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid grey;
+  div {
+    width: 100%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  ul  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      list-style: none;
+    }
+    .sign_in_button {
+      max-width: 100px;
+      display: flex;
+      border: 1px solid blue;
+      border-radius: 20px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.section_1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div{
+    width: 50%;
+    h1{
+      font-size: 60px;
+    }
+    p {
+      font-size: 30px;
+    }
+    .section_1_buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .sign_up{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+
+}
