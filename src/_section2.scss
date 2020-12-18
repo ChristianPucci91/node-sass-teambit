@@ -1,23 +1,34 @@
 .section_2 {
-  background: salmon;
+  background:#ffe7d2;
   text-align: center;
+  padding: 10px 0 ;
+  #border {
+    border-bottom:1px solid grey;
+  }
   .container{
     @include width;
-    border-bottom: 1px solid grey;
+  }
+  .section_2_title {
+    width: 50%;
+    margin:0 auto 70px auto;
   }
     .section_2_img {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 50%;
+      width: 70%;
       margin:0 auto;
     }
     .section_2_img div {
-      width: 30%;
+      max-width: 200px;
       margin: 0 auto;
+    }
+    .section_2_img p {
+      margin-top:20px;
+      line-height: 30px;
     }
     .section_2_bottom {
       width: 20%;
-      margin:0 auto;
+      margin:100px auto;
     }
 }
