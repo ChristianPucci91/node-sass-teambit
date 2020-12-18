@@ -2,15 +2,34 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 80px;
   border-bottom: 1px solid grey;
   @include width;
-  div {
-    width: 100%;
-  }
   .logo {
     display: flex;
     align-items: center;
+    span {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+  div {
+    width: 100%;
+  }
+  .sign_in_button {
+    max-width: 100px;
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    .google {
+      margin: 5px 10px 5px 0;
+      width: 15%;
+    }
+    span {
+      width: 85%;
+    }
   }
   ul  {
     display: flex;
@@ -18,12 +37,7 @@ nav {
     align-items: center;
     li {
       list-style: none;
-    }
-    .sign_in_button {
-      max-width: 100px;
       display: flex;
-      border: 1px solid blue;
-      border-radius: 20px;
     }
   }
 }

@@ -5,22 +5,40 @@
   @include width;
   div{
     width: 50%;
+  }
+  .section_1_text {
+
     h1{
-      font-size: 60px;
+      font-size: 50px;
     }
     p {
-      font-size: 30px;
+      font-size: 25px;
+      margin:30px 0;
     }
     .section_1_buttons {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
+      width: 100%;
       .sign_up{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        max-width: 36%;
+        background: #30488f;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color:#fff;
+        .section_1_logo {
+          max-width: 15px;
+        }
       }
     }
+    .section_1_buttons * {
+      margin-right: 10px;
+    }
+    .mail_link p{
+      font-size: 15px;
+    }
   }
-
 }
