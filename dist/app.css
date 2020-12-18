@@ -243,6 +243,38 @@ nav ul li {
   line-height: 14px;
 }
 
+.section_4 .section_4_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0 20px 0;
+}
+
+.section_4 .section_4_buttons .sign_up {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 36%;
+  background: linear-gradient(#4466D4, #0E14EE, #7F14D4);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  color: #040F0F;
+}
+
+.section_4 .section_4_buttons .sign_up .section_4_logo {
+  max-width: 15px;
+}
+
+.section_4 .section_1_buttons * {
+  margin-right: 10px;
+}
+
+.section_4 .mail_link p {
+  font-size: 15px;
+}
+
 footer {
   display: flex;
   width: 80%;

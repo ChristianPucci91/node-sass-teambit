@@ -36,4 +36,29 @@
       }
     }
   }
+  .section_4_buttons {
+    @include display-flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0 20px 0;
+    .sign_up{
+      @include display-flex;
+      justify-content: space-around;
+      max-width: 36%;
+      background: linear-gradient($background, $text_color_blue,$button_color);
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin: 0 20px;
+      color:$text_color;
+      .section_4_logo {
+        max-width: 15px;
+      }
+    }
+  }
+  .section_1_buttons * {
+    margin-right: 10px;
+  }
+  .mail_link p{
+    font-size: 15px;
+  }
 }
