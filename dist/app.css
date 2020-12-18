@@ -120,6 +120,7 @@ nav ul li {
   background: #ffe7d2;
   text-align: center;
   padding: 10px 0;
+  color: #58402c;
 }
 
 .section_2 #border {
@@ -159,14 +160,38 @@ nav ul li {
   margin: 100px auto;
 }
 
-.section_3 div {
-  display: flex;
-  justify-content: flex-start;
+.section_3 {
+  padding: 100px 0;
+  color: #58402c;
 }
 
-.section_3 div .section_3_text {
+.section_3 .left {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 50px 0;
+}
+
+.section_3 .right {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  padding: 50px 0;
+  margin: 0 20%;
+}
+
+.section_3 .section_3_text {
   display: flex;
   flex-direction: column;
+}
+
+.section_3 .section_3_text p {
+  margin: 30px 0;
+}
+
+.section_3 .section_3_text .section_3_text_img {
+  max-width: 70%;
+  margin: 50px 0;
 }
 
 .section_4 {
