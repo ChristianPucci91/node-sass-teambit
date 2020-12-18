@@ -1,17 +1,40 @@
 .section_4 {
-  background: salmon;
+  background: $background;
   text-align: center;
+  padding: 50px 0;
+  .section_4_title {
+    font-size: 26px;
+    width: 40%;
+    margin:50px auto;
+    line-height: 80px;
+  }
   .section_4_text {
     background: white;
-    border:1px solid black;
-    border-radius: 10px;
+    border:1px solid $border_color;
+    border-radius: 5px;
     width:40%;
     margin:0 auto;
     text-align: left;
-    padding: 10px;
+    padding: 30px;
     line-height: 30px;
     p{
-      font-size: 20px;
+      font-size: 17px;
+      margin-bottom:20px;
+    }
+    .section_4_text_bottom {
+      display: flex;
+      width: 100%;
+      justify-content: flex-start;
+      align-items:center;
+      .ceo {
+        width: 40px;
+        margin-right: 10px;
+      }
+      .ceo_text p {
+        margin: 0;
+        font-size: 12px;
+        line-height: 14px;
+      }
     }
   }
 }

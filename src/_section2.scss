@@ -1,10 +1,10 @@
 .section_2 {
-  background:#ffe7d2;
+  background:$background;
   text-align: center;
   padding: 10px 0 ;
-  color:#58402c;
+  color:$text_color;
   #border {
-    border-bottom:1px solid grey;
+    border-bottom:1px solid $border_color;
   }
   .container{
     @include width;

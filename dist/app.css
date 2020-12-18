@@ -14,8 +14,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid grey;
-  color: #58402c;
+  border-bottom: 1px solid #7F14D4;
+  color: #040F0F;
   width: 80%;
   margin: 100px auto;
 }
@@ -37,7 +37,7 @@ nav div {
 nav .sign_in_button {
   max-width: 100px;
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid #7F14D4;
   border-radius: 10px;
   padding: 5px 0 5px 10px;
   align-items: center;
@@ -77,13 +77,13 @@ nav ul li {
 
 .section_1 .section_1_text h1 {
   font-size: 50px;
-  color: #58402c;
+  color: #040F0F;
 }
 
 .section_1 .section_1_text p {
   font-size: 25px;
   margin: 30px 0;
-  color: #58402c;
+  color: #040F0F;
 }
 
 .section_1 .section_1_text .section_1_buttons {
@@ -98,10 +98,10 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   max-width: 36%;
-  background: #30488f;
+  background: #7F14D4;
   border-radius: 5px;
   padding: 10px 20px;
-  color: #fff;
+  color: #040F0F;
 }
 
 .section_1 .section_1_text .section_1_buttons .sign_up .section_1_logo {
@@ -117,14 +117,14 @@ nav ul li {
 }
 
 .section_2 {
-  background: #ffe7d2;
+  background: #4466D4;
   text-align: center;
   padding: 10px 0;
-  color: #58402c;
+  color: #040F0F;
 }
 
 .section_2 #border {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #7F14D4;
 }
 
 .section_2 .container {
@@ -162,7 +162,7 @@ nav ul li {
 
 .section_3 {
   padding: 100px 0;
-  color: #58402c;
+  color: #040F0F;
 }
 
 .section_3 .left {
@@ -195,23 +195,50 @@ nav ul li {
 }
 
 .section_4 {
-  background: salmon;
+  background: #4466D4;
   text-align: center;
+  padding: 50px 0;
+}
+
+.section_4 .section_4_title {
+  font-size: 26px;
+  width: 40%;
+  margin: 50px auto;
+  line-height: 80px;
 }
 
 .section_4 .section_4_text {
   background: white;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid #7F14D4;
+  border-radius: 5px;
   width: 40%;
   margin: 0 auto;
   text-align: left;
-  padding: 10px;
+  padding: 30px;
   line-height: 30px;
 }
 
 .section_4 .section_4_text p {
-  font-size: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.section_4 .section_4_text .section_4_text_bottom {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section_4 .section_4_text .section_4_text_bottom .ceo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.section_4 .section_4_text .section_4_text_bottom .ceo_text p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 footer {
