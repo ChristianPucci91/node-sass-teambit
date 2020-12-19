@@ -16,3 +16,12 @@
 img {
   max-width: 100%;
 }
+
+a:hover {
+  color:$text_color_blue;
+  cursor: pointer;
+}
+li:hover {
+  color:$text_color_blue;
+  cursor: pointer;
+}
